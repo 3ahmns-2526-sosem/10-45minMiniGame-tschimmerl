@@ -1,68 +1,14 @@
-# Project Title
- 
-## Short Description
-Briefly describe what the project is about.
-Example: This Unity project implements a simple tower scene with additional objects and interactions.
- 
-## Team / Authors
-- Name 1
-- Name 2
-- Name 3
- 
-## Unity Version
-Unity version used:
-- Unity 6000.0.57f1
- 
-## Project Structure
-Important folders:
- 
-- `Assets/MyGame/Scenes`
-- `Assets/MyGame/Scripts`
-- `Assets/MyGame/Prefabs`
-- `Assets/MyGame/Materials`
- 
-Link to Projects
- 
-## How to Open the Project
-1. Clone or download this repository.
-2. Open Unity Hub.
-3. Add the project folder.
-4. Open the project with the correct Unity version.
-5. Open the main scene in `Assets/MyGame/Scenes`.
- 
-## How to Test
-Describe how the project can be tested.
- 
-Example:
-1. Start the scene.
-2. Press Play.
-3. Move the player with WASD.
-4. Check if the interaction works.
- 
-## Controls
-- `WASD` – move
-- `Mouse` – look around
-- `Space` – jump
-- `E` – interact
- 
-## Known Issues
-Write down known problems.
- 
-Example:
-- Some textures are still missing.
-- Player movement is not final.
-- UI is not finished.
- 
-## Sources / Assets
-List external assets, sounds, images, or code sources.
- 
-Example:
-- Asset name: ...
-- Source: ...
-- License: ...
- 
-## Screenshots
-Optional: Add screenshots of the project.
- 
-```md
-![Screenshot](Documentation/screenshot01.png)
+# 45-Minute Unity Mini Game Challenge: Cube Clicker
+
+## Spielidee
+Ein einfacher und funktionaler 3D-Clicker. Auf dem Bildschirm befindet sich ein Würfel, den die Spieler:innen anklicken müssen. Bei jedem erfolgreichen Klick ändert der Würfel zufällig seine Farbe und teleportiert sich an eine neue Position auf dem Bildschirm, während der Punktestand erhöht wird. Das Spiel ist gewonnen, sobald man ein klares Ziel von 10 Punkten erreicht hat. Dann verschwindet der Würfel und eine Siegesmeldung wird eingeblendet.
+
+## Steuerung
+- **Mausklick / Touch-Eingabe:** Klicke mit der linken Maustaste (oder tippe auf dem Bildschirm) direkt auf den Würfel, um Punkte zu sammeln.
+
+## KI-Nutzung
+- **Ideenfindung & Konzept:** Die KI wurde genutzt, um eine extrem simple Spielidee auszuwählen, die sich verlässlich innerhalb des 45-Minuten-Zeitfensters umsetzen lässt.
+- **Code-Erstellung:** Das grundlegende C#-Struktur-Skript für die Klick-Erkennung (`OnMouseDown`), den Punktezähler und die Repositionierung wurde von der KI generiert.
+- **Fehlerbehebung:** Bei internen Shader-Fehlern von Unity sowie Syntax-Fehlern im Skript wurde die KI erfolgreich zur Analyse der Konsolen-Fehlermeldungen und zur Bereitstellung von Lösungsansätzen eingesetzt.
+- **Dokumentation:** Die Struktur der GitHub-Issues sowie dieser README-Text wurden mithilfe von KI-Unterstützung ausgearbeitet.
+- *Der Code wurde nicht blind kopiert, sondern logisch nachvollzogen, um die geforderten Mechaniken (Interaktion, Ziel, Feedback) sauber zu verknüpfen.*
